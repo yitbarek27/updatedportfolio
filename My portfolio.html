@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="light-theme">
+  <canvas id="backgroundCanvas"></canvas>
+  <header>
+    <nav class="navbar">
+      <img src="logo.png" alt="Logo" class="logo">
+      <img src="menu.png" alt ="Menu" class="menu-toggle" id="menu-toggle">
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <div class="home-content">
+      <img src="yitbarek-profile.png" alt="Profile Picture" class="profile">
+      <div class="intro-text">
+        <h1>Hello, I'm Yitbarek Debasu</h1>
+        <p><strong>ID:</strong> GUR/02743/15</p>
+        <p><strong>Education:</strong> BSc in Computer Science</p>
+        <p><strong>University:</strong> University of Gondar</p>
+        <p><strong>Year:</strong> 3rd Year (Expected Graduation: 2025)</p>
+        <p>
+          I’m a passionate Frontend Developer skilled in <strong>HTML5</strong>, <strong>CSS3</strong>, and <strong>JavaScript</strong>. 
+          I focus on creating responsive, user-friendly websites that combine clean design with strong functionality.
+        </p>
+        <p>
+          I've also developed practical projects, including:
+          <ul>
+            <li><strong>Student Registration System</strong> – with database functionality</li>
+            <li><strong>Bus Reservation System</strong> – user-friendly and data-driven</li>
+            <li><strong>Bank Management System</strong> – using data structures and algorithms</li>
+            <li><strong>Chat Application</strong> – applying object-oriented programming concepts</li>
+          </ul>
+        </p>
+      </div>
+    </div>
+  </section>
+  
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I specialize in creating responsive websites with clean design, usability, and performance in mind.
+      My development approach combines technical skills with creativity to deliver professional and effective web solutions.
+    </p>
+    <p>
+      With a strong foundation in <strong>HTML, CSS, and JavaScript</strong>, I build interactive, accessible, and visually appealing web applications.
+      I follow modern development practices including semantic HTML5, responsive design with Flexbox and Grid, and feature-rich interactivity with JavaScript.
+    </p>
+    <p>
+      I’ve worked on practical projects such as a <strong>Student Registration System</strong> and <strong>Bus Reservation System</strong> using databases,
+      a <strong>Bank Management System</strong> built with core data structures, and a <strong>Chat Application</strong> using Object-Oriented Programming principles.
+    </p>
+    <p>
+      I'm a fast learner and a team player who values clean, maintainable code and effective communication.
+      I'm always exploring new tools, libraries, and best practices to stay ahead in the fast-paced world of web development.
+    </p>
+  </section>
+  
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>
+        <strong>HTML</strong> – I use semantic HTML5 to create structured and accessible web content.
+        By using elements like <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, and <code>&lt;footer&gt;</code>,
+        I ensure that the website’s structure is meaningful to both browsers and assistive technologies.
+        This enhances accessibility, SEO performance, and code maintainability.
+      </li>
+  
+      <li>
+        <strong>CSS</strong> – I design attractive, responsive layouts using modern techniques like
+        <strong>Flexbox</strong>, <strong>CSS Grid</strong>, <strong>media queries</strong>, and <strong>animations</strong>.
+        <br> I ensure visual consistency and usability across all screen sizes, from mobile to desktop.
+        <br> I also apply design principles such as spacing, alignment, and hierarchy to create clean and intuitive interfaces.
+        <br> Additionally, I use variables, custom properties, and reusable utility classes to keep my styles organized, scalable, and maintainable.
+      </li>
+  
+      <li>
+        <strong>JavaScript</strong> – I bring interactivity to websites using JavaScript, handling everything from 
+        <strong>DOM manipulation</strong>, <strong>event handling</strong>, and <strong>form validation</strong> to creating dynamic UI components.
+        <br> I write clean, modular code and utilize modern ES6+ features such as arrow functions, template literals, destructuring, and async/await.
+        <br> I also work with browser APIs and ensure cross-browser compatibility to deliver responsive, performant, and user-friendly applications.
+      </li>
+  
+      <li>
+        <strong>Database Projects</strong> – I have experience building data-driven systems such as a 
+        <strong>Student Registration System</strong> and a <strong>Bus Reservation System</strong> using relational databases (e.g., MySQL).
+        <br> These projects involved designing normalized schemas, writing complex SQL queries, and integrating front-end and back-end systems for real-world functionality.
+      </li>
+  
+      <li>
+        <strong>Data Structures & Algorithms</strong> – I implemented a <strong>Bank Management System</strong> using core data structures such as linked lists, queues, stacks, and trees.
+        <br> This helped me deepen my understanding of algorithm efficiency and memory management, especially in C/C++ environments.
+      </li>
+  
+      <li>
+        <strong>Object-Oriented Programming (OOP)</strong> – I developed a <strong>Chat Application</strong> using OOP principles like encapsulation, inheritance, and polymorphism.
+        <br> This project improved my ability to design modular, reusable, and scalable code, especially using languages like Java.
+      </li>
+    </ul>
+  </section>
+  
+ <section id="contact">
+  <h2>Contact Me</h2>
+  <form id="contact-form" action="https://formspree.io/f/xkgrlyjw" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send</button>
+    <p id="form-status" style="margin-top: 10px; font-weight: bold;"></p> 
+  </form>
+</section>
+
+<h3>Contact Me On Social Media</h3>
+  <div class="social-links">
+    <a href="https://t.me/yitnoham27" class="telegram" target="_blank">
+      <img src="telegram-icon.png"> Telegram
+    </a>
+    <a href="https://www.youtube.com/@yitbarek27" class="youtube" target="_blank">
+      <img src="youtube-icon.png"> YouTube
+    </a>
+    <a href="mailto:debasuyitbarek14@gmail.com" class="email">
+      <img src="email-icon.png"> Email
+    </a>
+    <a href="tel:+251927932470" class="phone">
+     <img src="call-icon.png" alt=""> Call Me
+    </a>
+  </div>
+  <footer>
+    <p><b>designed by Yitbarek Debasu</b></p>
+  </footer>
+  <script src="script.js"></script> 
+</body>
+</html>
